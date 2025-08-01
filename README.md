@@ -1,7 +1,7 @@
 # Edition Types Vocabulary (ETV) – ATLAS Project
 
 **Version**: 1.0  
-**Version IRI**: [https://www.w3id.org/dh-atlas-vocabularies/etv/](dh-atlas-vocabularies/etv/)  
+**Version IRI**: [https://www.w3id.org/dh-atlas-vocabularies/etv/](https://www.w3id.org/dh-atlas-vocabularies/etv/)  
 **Authors**: Chiara Martignano, Franz Fischer, Marina Buzzoni, Roberto Rosselli Del Turco  
 **Contributors**: Alessia Bardi, Angelo Mario Del Grosso, Francesca Tomasi, Giorgia Rubin, Marilena Daquino, Riccardo Del Gratta, Sebastiano Giacomini  
 **License**: Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
