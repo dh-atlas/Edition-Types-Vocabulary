@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <skos:ConceptScheme rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/">
+    <rdfs:label>Edition Types Vocabulary</rdfs:label>
+    <dc:contributor>Giorgia Rubin, Sebastiano Giacomini, Alessia Bardi, Marilena Daquino, Riccardo Del Gratta, Angelo Mario Del Grosso, Francesca Tomasi</dc:contributor>
+    <dc:creator>Chiara Martignano, Marina Buzzoni, Franz Fischer, Roberto Rosselli Del Turco</dc:creator>
+    <dc:description xml:lang="en">The Edition Types Vocabulary is a knowledge organization system developed within the ATLAS project. Its purpose is to provide a structured and authoritative set of terms to describe various types of textual criticism products, specifically scholarly editions. The vocabulary encompasses a wide range of edition types—such as critical, diplomatic, genetic, and facsimile editions—offering standardized, stable labels and curated references to support the consistent classification and description of editorial practices in textual scholarship.</dc:description>
+    <dc:description xml:lang="it">Edition Types Vocabulary è un sistema di organizzazione della conoscenza sviluppato nell’ambito del progetto ATLAS. Lo scopo del vocabolario è fornire un insieme strutturato e autorevole di termini per descrivere diverse tipologie di prodotti dell'ecdotica, in particolare le edizioni critiche. Il vocabolario comprende un’ampia gamma di tipologie editoriali—come le edizioni critiche, diplomatiche, genetiche e facsimilari—offrendo etichette standardizzate, stabili e riferimenti curati per supportare una classificazione e una descrizione coerente delle pratiche editoriali nel campo della filologia testuale.</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-30</dc:issued>
+    <dc:language xml:lang="en">English</dc:language>
+    <dc:language xml:lang="it">Italiano</dc:language>
+    <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:title>Edition Types Vocabulary</dc:title>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/Best-manuscriptEdition"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/CriticalEdition"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/DiplomaticEdition"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/DocumentaryEdition"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/EclecticEdition"/>
+    <skos:hasTopConcept rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/FacsimileEdition"/>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/GeneticEdition">
+        <dc:source xml:lang="en">Grésillon, Almuth. 1994. 'Eléments De Critique Génétique. Lire Les Manuscrits Modernes'. Paris: Presses universitaires de France. http://www.persee.fr/web/revues/home/prescript/article/igram_0222-9838_1995_num_67_1_3038_T1_0053_0000_5.</dc:source>
+        <skos:closeMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionGenetic.html"/>
+        <skos:definition xml:lang="en">A genetic edition is an edition that aims to offer the reader access to multiple levels of textual creation, presenting, in the chronological order of the writing process, all stages of text composition and revision and all preserved genetic documents of a work or project.</skos:definition>
+        <skos:definition xml:lang="it">Un’edizione genetica è un’edizione che mira a offrire al lettore l’accesso a più livelli di creazione testuale, presentando, nell’ordine cronologico del processo di scrittura, tutte le fasi di composizione e revisione del testo e tutti i documenti genetici conservati di un’opera o di un progetto.</skos:definition>
+        <skos:example xml:lang="en">Nieddu, Simone, Giovanna Cordibella, and Paola Italia. ‘Wiki Leopardi’, 2020. https://wikileopardi.altervista.org/wiki_leopardi/index.php?title=Wiki_Leopardi.</skos:example>
+        <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+        <skos:prefLabel xml:lang="en">Genetic edition</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Edizione genetica</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+
+    <skos:hasTopConcept rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/InterpretativeEdition"/>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/Multi-witnessedEdition">
+        <dc:source xml:lang="en">Leonardi, Lino. 2022. 'Filologia romanza'. Vol. 1: 'Critica del testo'. Le Monnier Università.</dc:source>
+        <skos:definition xml:lang="en">An edition based on multiple witnesses.</skos:definition>
+        <skos:definition xml:lang="it">Un’edizione basata su più testimoni.</skos:definition>
+        <skos:example xml:lang="en">Burgio, Eugenio, et al. 2024. 'Digital Edition of the Devisement Dou Monde A Comprehensive Digital Scholarly Edition. Critical Translation and Commentary'. Fondazione Università Ca’ Foscari. https://doi.org/10.30687/978-88-6969-872-9.</skos:example>
+        <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+        <skos:prefLabel xml:lang="en">Multi-witnessed edition</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Edizione pluritestimoniale</skos:prefLabel>
+        <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/CriticalEdition"/>
+        <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/EclecticEdition"/>
+        <skos:related>
+          <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/SynopticEdition">
+            <dc:source xml:lang="en">&quot;Edition, synoptic&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539.</dc:source>
+            <skos:definition xml:lang="en">A synoptic edition is an edition which renders the text of two or more witnesses in parallel columns across one or two pages, or above each other, in horizontal rows. The term is closely linked to the practice of making printed editions and thus limited to the typographical space created by one or two pages in a book. A synoptic edition can also render other sources than single manuscripts, for example bringing together already existing editions. The main advantage of a synoptic edition is that it makes textual comparison easy for the reader.</skos:definition>
+            <skos:definition xml:lang="it">Un’edizione sinottica è un’edizione che presenta il testo di due o più testimoni in colonne parallele su una o due pagine, oppure l’uno sopra l’altro, in righe orizzontali. Il termine è strettamente legato alla pratica di realizzare edizioni a stampa e quindi limitato allo spazio tipografico creato da una o due pagine in un libro. Un’edizione sinottica può anche presentare fonti diverse dai singoli manoscritti, ad esempio riunendo edizioni già esistenti. Il principale vantaggio di un’edizione sinottica è che rende facile per il lettore il confronto testuale.</skos:definition>
+            <skos:example xml:lang="en">Sichera, Antonio et al. (ed.) L'esclusa, Edizione Nazionale Digitale delle opere di Luigi Pirandello, https://www.pirandellonazionale.it/edizione/lesclusa_ed-a-confronto/</skos:example>
+            <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+            <skos:prefLabel xml:lang="en">Synoptic edition</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Edizione sinottica</skos:prefLabel>
+          </skos:Concept>
+        </skos:related>
+
+      </skos:Concept>
+    </skos:hasTopConcept>
+
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/Single-witnessedEdition">
+        <dc:source xml:lang="en">Leonardi, Lino. 2022. 'Filologia romanza'. Vol. 1: 'Critica del testo'. Le Monnier Università.</dc:source>
+        <skos:definition xml:lang="en">An edition based on a single witness.</skos:definition>
+        <skos:definition xml:lang="it">Un’edizione basata su un solo testimone.</skos:definition>
+        <skos:example xml:lang="en">Salvatori, Enrica et al. 2020. Codice Pelavicino. Edizione digitale, 2a ed. https://doi.org/10.13131/978-88-944430-2-8.</skos:example>
+        <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+        <skos:prefLabel xml:lang="en">Single-witnessed edition</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Edizione monotestimoniale</skos:prefLabel>
+        <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/Best-manuscriptEdition"/>
+        <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/DiplomaticEdition"/>
+        <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/DocumentaryEdition"/>
+        <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/FacsimileEdition"/>
+        <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/InterpretativeEdition"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+
+    <skos:prefLabel>Edition Types Vocabulary</skos:prefLabel>
+    <foaf:homepage rdf:resource="https://dh-atlas.github.io/"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/Best-manuscriptEdition">
+    <dc:source xml:lang="en">&quot;Edition, best-manuscript&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539</dc:source>
+    <skos:definition xml:lang="en">A best-manuscript edition is an edition based on a single witness of the tradition, chosen by the editor on the basis of the outcome of the recensio, or typically because it is the earliest and/or best preserved. The term refers to Joseph Bédier, who relied on a single “good” manuscript to produce the edition of the Old French Lai de l’Ombre.</skos:definition>
+    <skos:definition xml:lang="it">Un’edizione del codice migliore / ottimo (o bédieriana) è un’edizione basata su un solo testimone della tradizione, scelto dall’editore in base all’esito della recensio, oppure in quanto più antico o meglio conservato. Il termine bédieriano rimanda a Joseph Bédier, che per realizzare l’edizione del Lai de l’Ombre si affidò a un solo “buon” manoscritto.</skos:definition>
+    <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+    <skos:prefLabel xml:lang="en">Best-manuscript edition</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Edizione bédieriana</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/DocumentaryEdition">
+    <dc:source xml:lang="en">&quot;Edition, documentary&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539</dc:source>
+    <dc:source xml:lang="en">Pierazzo, Elena. 2014. ‘Digital Documentary Editions and the Others’. Scholarly Editing 35, 1–23.</dc:source>
+    <skos:closeMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionDocumentary.html"/>
+    <skos:definition xml:lang="en">A documentary edition is an edition based on a single document of particular historical, literary or linguistic value. This type of edition can take different formats, presenting the textual content of the document as semi-diplomatic, diplomatic, ultra-diplomatic, or even facsimile edition, which differ in the level of editorial intervention, ranging from major to minor concession to the reading habits of the target audience.</skos:definition>
+    <skos:definition xml:lang="it">Un’edizione documentaria è un’edizione basata su un singolo documento di particolare valore storico, letterario o linguistico. Questo tipo di edizione può assumere diversi formati, presentando il contenuto testuale del documento come edizione semi-diplomatica, diplomatica, ultra-diplomatica, o persino facsimilare, che si differenziano per il livello di intervento editoriale, che va dal maggiore al minore adattamento alle abitudini di lettura del pubblico di riferimento.</skos:definition>
+    <skos:example xml:lang="en">Salvatori, Enrica et al. 2020. Codice Pelavicino. Edizione digitale, 2a ed. https://doi.org/10.13131/978-88-944430-2-8.</skos:example>
+    <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+    <skos:prefLabel xml:lang="en">Documentary edition</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Edizione documentaria</skos:prefLabel>
+    <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/DiplomaticEdition"/>
+    <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/FacsimileEdition"/>
+    <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/InterpretativeEdition"/>
+    <skos:relatedMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionDocumentaryDigital.html"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/EclecticEdition">
+    <dc:source xml:lang="en">&quot;Edition, eclectic&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539.</dc:source>
+    <skos:closeMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionEclectic.html"/>
+    <skos:definition xml:lang="en">An eclectic edition is an edition based on more than one witness. The eclectic edition does not reflect a single witness throughout, such as a documentary edition does, but tries to approximate an earlier stage of the textual transmission by selecting readings from several witnesses. The eclectic edition selects the supposedly best readings wherever there are conflicting readings in the witnesses. The term ‘eclectic’ is also used as a neutral term within the editing of modern texts by leading American critics, following the copy-text theory of Walter Wilson Greg.</skos:definition>
+    <skos:definition xml:lang="it">Un’edizione eclettica è un’edizione basata su più di un testimone. L’edizione eclettica non riflette un unico testimone, come fa un’edizione documentaria, ma cerca di approssimare una fase precedente della trasmissione testuale selezionando letture da diversi testimoni. L’edizione eclettica seleziona le lezioni presumibilmente migliori laddove ci sono lezioni contrastanti nei testimoni. Il termine “eclettico” è usato anche come termine neutro nell’ambito della redazione di testi moderni da parte di importanti critici americani, seguendo la teoria del copy-text di Walter Wilson Greg.</skos:definition>
+    <skos:example xml:lang="en">Burgio, Eugenio, et al. 2024. 'Digital Edition of the Devisement Dou Monde A Comprehensive Digital Scholarly Edition. Critical Translation and Commentary'. Fondazione Università Ca’ Foscari. https://doi.org/10.30687/978-88-6969-872-9.</skos:example>
+    <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+    <skos:prefLabel xml:lang="en">Eclectic edition</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Edizione eclettica</skos:prefLabel>
+    <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/CriticalEdition"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/CriticalEdition">
+    <dc:source xml:lang="en">&quot;Edition, critical&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539.</dc:source>
+    <skos:altLabel xml:lang="it">Edizione ricostruttiva</skos:altLabel>
+    <skos:closeMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionCritical.html"/>
+    <skos:closeMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionScholarly.html"/>
+    <skos:definition xml:lang="en">A critical edition is an edition in which the text has been constituted on the basis of more than one witness applying a genealogical methodology (to reconstruct an archetypical version) or some other critical assessment of variant readings. Significant variants are usually recorded in a critical apparatus.</skos:definition>
+    <skos:definition xml:lang="it">Un’edizione critica (o ricostruttiva) è un’edizione in cui il testo è stato costituito sulla base di più testimoni applicando una metodologia genealogica (per ricostruire una versione archetipica) o un’altra valutazione critica delle varianti. Le varianti significative sono di solito registrate in un apparato critico.</skos:definition>
+    <skos:example xml:lang="en">Guarnaccio, Luca (ed.). 2020. Manfredi Potentini Vita Gerardi (BHL 3429) sive Laudatio sancti Gerardi episcopi Potenti, DOI: 10.6093/978-88-31309-04-2.</skos:example>
+    <skos:example xml:lang="en">Shaw, Prue (ed.) 2019. Monarchia. https://www.danteonline.it/monarchia/</skos:example>
+    <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+    <skos:prefLabel xml:lang="en">Critical edition</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Edizione critica</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/FacsimileEdition">
+    <dc:source xml:lang="en">&quot;Edition, types of&quot; and &quot;Facsimile&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539.</dc:source>
+    <dc:source xml:lang="en">Kline, Mary-Jo. 1998. 'A Guide to Documentary Editing'. Second Edition. Baltimore,: Johns Hopkins University Press. http://gde.upress.virginia.edu/00C-gde.html.</dc:source>
+    <skos:altLabel xml:lang="it">Edizione facsimilare</skos:altLabel>
+    <skos:closeMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionFacsimile.html"/>
+    <skos:definition xml:lang="en">A facsimile edition is an edition that aims at reproducing all of the visual (and sometimes even material) details of the source text. This may be in the form of a duplicate image (photographic, microform, or digitally scanned), or, rarely, a typographic facsimile.</skos:definition>
+    <skos:definition xml:lang="it">Un’edizione in facsimile è un’edizione che mira a riprodurre tutti i dettagli visivi (e talvolta anche materiali) del testo di partenza. Può trattarsi di un duplicato di un'immagine (fotografica, su microfilm, digitalizzata) o, raramente, di un facsimile tipografico.</skos:definition>
+    <skos:example xml:lang="en">Facsimile edition of the incunable of Giovanni Boccaccio's Ninfale fiesolano, published in Biblioteca Italiana http://www.bibliotecaitaliana.it/testo/ib00758500</skos:example>
+    <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+    <skos:prefLabel xml:lang="en">Facsimile (edition)</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">(Edizione in) facsimile</skos:prefLabel>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/InterpretativeEdition">
+    <dc:source xml:lang="en">&quot;Normalisation&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539.</dc:source>
+    <dc:source xml:lang="en">Leonardi, Lino. 2022. 'Filologia romanza'. Vol. 1: 'Critica del testo'. Le Monnier Università.</dc:source>
+    <skos:definition xml:lang="en">An interpretative edition, like the diplomatic edition, is based on a single witness, but the editor intervenes on the text to make it more comprehensible, adapting it to modern orthographic conventions.</skos:definition>
+    <skos:definition xml:lang="it">Un’edizione interpretativa, come l’edizione diplomatica, si basa su un solo testimone, ma l’editore interviene sul testo, per renderlo più comprensibile, adattandolo alle convenzioni ortografiche moderne.</skos:definition>
+    <skos:example xml:lang="en">Giacomo Leopardi's Zibaldone di pensieri: a digital research platform. https://digitalzibaldone.net/.</skos:example>
+    <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+    <skos:prefLabel xml:lang="en">Interpretative edition</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Edizione interpretativa</skos:prefLabel>
+    <skos:related rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/DiplomaticEdition"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://w3id.org/dh-atlas-vocabularies/etv/DiplomaticEdition">
+    <dc:source xml:lang="en">&quot;Edition, diplomatic&quot; in Roelli, Philipp, and Caroline Macé. ‘Parvum Lexicon Stemmatologicum. A Brief Lexicon of Stemmatology’. Edited by Odd Einar Haugen, Marina Buzzoni, and Aidan Conti, November 2015. https://doi.org/10.5167/uzh-121539.</dc:source>
+    <skos:altLabel xml:lang="it">Edizione conservativa</skos:altLabel>
+    <skos:closeMatch rdf:resource="https://lexiconse.uantwerpen.be/lexicon/editionDiplomatic.html"/>
+    <skos:definition xml:lang="en">A diplomatic edition is an edition which is based on a single witness and usually follows it very closely in matters of layout and orthography. In many cases, obvious mistakes are not corrected, but pointed out in the apparatus. Diplomatic editions are particularly frequent in the field of vernacular languages, since many of these lack a standard orthography.</skos:definition>
+    <skos:definition xml:lang="it">Un’edizione diplomatica è un’edizione che si basa su un unico testimone, riproponendone fedelmente il testo per quanto riguarda la disposizione nel documento originale e l’ortografia. In molti casi, gli errori evidenti non vengono corretti, ma segnalati nell’apparato. Le edizioni diplomatiche sono particolarmente frequenti nel campo delle lingue vernacolari, poiché molte di queste non hanno un’ortografia standard.</skos:definition>
+    <skos:example xml:lang="en">Magni, Isabella, Wayne Storey, John Walsh, and Francesco Marco Aresu. 2023. ‘Petrachive: An Edition of Petrarch’s Songbook’. https://dcl.ils.indiana.edu/petrarchive/.</skos:example>
+    <skos:inScheme rdf:resource="https://w3id.org/dh-atlas-vocabularies/etv/"/>
+    <skos:prefLabel xml:lang="en">Diplomatic edition</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Edizione diplomatica</skos:prefLabel>
+  </skos:Concept>
+
+</rdf:RDF>
