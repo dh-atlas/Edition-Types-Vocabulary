@@ -1,5 +1,10 @@
 # Edition Types Vocabulary (ETV) – ATLAS Project
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16883994.svg)](https://doi.org/10.5281/zenodo.16883994)
+
+
+
 **Version**: 1.0  
 **Version IRI**: [https://www.w3id.org/dh-atlas-vocabularies/etv/](https://www.w3id.org/dh-atlas-vocabularies/etv/)  
 **Authors**: Chiara Martignano, Franz Fischer, Marina Buzzoni, Roberto Rosselli Del Turco  
